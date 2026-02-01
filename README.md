@@ -69,3 +69,32 @@ This project was developed as part of an **Embedded Systems / Open Ended Lab**.
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 🧪 How It Works
+1. TM4C initializes GPIO and SPI pins
+2. ST7735S is reset and configured
+3. Display is cleared and initialized
+4. Button inputs are monitored
+5. Display updates according to user actions
+
+---
+
+## ⚠️ Important Notes
+- Ensure TFT operates at **3.3V only**
+- Do NOT connect TFT to 5V
+- Use common ground between MCU and TFT
+
+---
+
+## 📜 License
+This project is open-source and intended for **educational use only**.
+
+---
+
+## 👤 Author
+**Ali Ahsan**  
+Department of Electrical Engineering  
+UET Lahore
+
