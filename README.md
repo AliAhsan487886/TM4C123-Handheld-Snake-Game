@@ -1,2 +1,71 @@
-# TM4C123-Handheld-Snake-Game
-A handheld Snake game implemented on TM4C123GH6PM using ST7735S TFT LCD and GPIO-based controls.
+# TM4C123GH6PM Interfacing with ST7735S TFT Display (Handheld-Snake-Game)
+
+## 📌 Overview
+This project demonstrates interfacing a **ST7735S TFT LCD display** with the
+**TM4C123GH6PM (Tiva C LaunchPad)** using GPIO-based SPI communication.
+
+The system supports:
+- TFT graphics display
+- Button-based navigation
+- Embedded graphics rendering
+
+This project was developed as part of an **Embedded Systems / Open Ended Lab**.
+
+---
+
+## 🎯 Objectives
+- Interface ST7735S TFT LCD with TM4C123
+- Implement SPI communication
+- Display graphics and text on TFT
+- Handle user input using push buttons
+- Develop low-level register-based drivers
+
+---
+
+## 🧰 Hardware Used
+- TM4C123GH6PM (Tiva C LaunchPad)
+- ST7735S TFT LCD
+- Push Buttons
+- 3.3V Power Supply
+- Breadboard & jumper wires
+
+---
+
+## 🔌 Pin Configuration
+
+### 🖥️ ST7735S TFT Display (SPI)
+
+| TFT Signal | TM4C123 Pin |
+|-----------|-------------|
+| SCL (CLK) | PB4 |
+| SDA (MOSI) | PB7 |
+| RES | PB1 |
+| DC | PB3 |
+| CS | PB2 |
+| BLK | 3.3V |
+
+> Backlight is powered externally at 3.3V.
+
+---
+
+### 🎮 Push Buttons
+
+| Button | TM4C Pin |
+|------|---------|
+| Left | PA2 |
+| Right | PA3 |
+| Up | PA4 |
+| Down | PA5 |
+| Select | PA6 |
+
+---
+
+## ⚙️ Software Features
+- GPIO initialization using register-level programming
+- SPI-based TFT command and data transfer
+- Button debouncing and input detection
+- Screen updates based on user input
+
+---
+
+## 📂 Project Structure
