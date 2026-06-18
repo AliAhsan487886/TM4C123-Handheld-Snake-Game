@@ -1,5 +1,7 @@
 # TM4C123GH6PM Interfacing with ST7735S TFT Display (Handheld-Snake-Game)
 
+<img width="1634" height="640" alt="Game" src="https://github.com/user-attachments/assets/c5f6a569-a079-49d1-a115-0b27defb6270" />
+
 ## 📌 Overview
 This project demonstrates interfacing a **ST7735S TFT LCD display** with the
 **TM4C123GH6PM (Tiva C LaunchPad)** using GPIO-based SPI communication.
